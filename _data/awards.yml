@@ -1,0 +1,14 @@
+- title: ML in 5G 2022
+  description: "Federated Learning Challenge by ITU"
+  url: '../federated-traffic'
+  place: 1
+
+- title: IFMBE 2022
+  description: "Machine Learning Challenge by IFMBE"
+  url: '../ifmbe'
+  place: 1
+
+- title: TREC 2013
+  description: "Text Retrieval Challenge by NIST"
+  url: '../trec'
+  place: 2

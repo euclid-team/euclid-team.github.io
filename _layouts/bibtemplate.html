@@ -1,0 +1,39 @@
+---
+---
+{{reference}}{% if entry.comment %}, [{{entry.comment}}] {% endif %}
+
+<br>
+<button class="btn btnId btnPub--BibTex" id="b_{{key}}-bibtex" style="outline:none;" onclick="showDiv('{{key}}-bibtex')">BibTeX</button>
+
+<div class="dropDownBibtex" id="{{key}}-bibtex" style="display:none">
+<pre>{{entry.bibtex}}</pre>
+</div>
+
+{% if entry.abstract %}
+<button class="btn btnId btnPub--abstract" id="b_{{key}}-abstract" style="outline:none;" onclick="showDiv('{{key}}-abstract')">Abstract</button>
+{% endif %}
+
+<div class="dropDownAbstract" id="{{key}}-abstract" style="display:none">
+{{entry.abstract}}
+</div>
+
+{% if links['pdf'] %}
+<a href="{{links['pdf']}}"><button class="btn btnId btnPub--download" style="outline:none; position:relative;white-space: normal;">PDF</button></a>
+{% endif %}
+
+{% if links['md'] %}
+<a href="{{key}}"><button class="btn btnId btnPub--download" style="outline:none; position:relative;white-space: normal;">Paper page</button></a>
+<!-- {% details_link key %}  -->
+<!-- The above is an alternative way to use the detail_link for only one page, but you must create the pages manually  -->
+{% endif %}
+
+<script>
+    function showDiv(toggle) {
+        if(document.getElementById(toggle).style.display == "none"){
+            document.getElementById(toggle).style.display = "block";
+        }
+        else{
+            document.getElementById(toggle).style.display = "none";
+        }
+    }
+</script>
