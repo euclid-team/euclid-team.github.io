@@ -14,7 +14,7 @@ completed_projects:
     description: "In cooperation with Athena Research Center"
 
   - title: Atlas
-    date: 2013-2014
+    date: 2012-2015
     tags: Recommendation Systems, Social Graphs
     description: "The objective of the ATLAS project was to develop a holistic approach for tourism information retrieval and recommendation exploiting multiple rich media related resources on the web. The scientific and technical objectives of the project were: <br> O1 - To collect data and define usage context. Analysis of the representative application scenarios and the definition of the corresponding conditions for evaluating ATLAS services. Furthermore, building content and metadata collections to provide a basis for algorithm development and application prototyping. <br> O2 - To develop robust geo-aware multimedia retrieval techniques. a) Developing efficient tagging techniques through user- rich media - metadata modeling, b) Recommendation and retrieval based on multilinear subspace and sparse techniques and efficient sublinear indexing techniques. <br> O3 - To put ATLAS technology to work. Creation of ATLAS software tools, build on social graphs linking rich media, users, and metadata and integrate the search intent and user satisfaction models into advanced retrieval mechanisms. The ATLAS technology was demonstrated through trials and demos related to the application scenarios. <br> <strong>Industrial Partners </strong> for this project were LINK Technologies and 3Pi Information Systems. <br> <strong> Academic Partners </strong> were Aristotle University of Thessaloniki and Athena Research and Innovation Center."
   
@@ -25,16 +25,16 @@ completed_projects:
     url: 'http://www.spice-center.org/'
 
   - title: myVisitPlanner
-    date: DD/MM/YYYY
+    date: 2011-2013
     tags: Recommendation Systems, Security
     description: "Personalised System for Cultural Itineraries Planning; Collaborative Research Project, Funded by the General Secretariat for Research & Technology"
 
   - title: SPHINX
-    date: DD/MM/YYYY
-    tags: Recommendation Systems, Security
+    date: 2011-2012
+    tags: Security
     description: "Robust Internet Services: Distinguishing Humans from Computers via Interactive Audio Means, funded by the General Secretariat for Research and Technology"
 
   - title: HellasHPC
-    date: DD/MM/YYYY
+    date: 2010
     tags: High-Performance Computing
     description: "National Network of Excellence in High-Performance Computing – HellasHPC, funded by the General Secretariat for Research and Technology"
