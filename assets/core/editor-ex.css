@@ -221,7 +221,7 @@ var {
   line-height: 26px;
 }
 
-/* New social links style as bottom line */
+/* New social links style */
 .social-links ul a {
   min-height: 30px;
   min-width: 30px;
@@ -229,9 +229,7 @@ var {
 }
 
 .social-links {
-  position: absolute;
-  bottom: 0;
-  padding-top: 0;
+  padding-top: 40;
 }
 
 .bottom-line {
