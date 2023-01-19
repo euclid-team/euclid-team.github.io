@@ -79,6 +79,13 @@
     /* Could be more or less, depending on screen size */
 }
 
+@media (max-width: 768px) {
+    .modal-content {
+        margin: 30% 4%;
+        width: 90%;
+    }
+}
+
 /* The Close Button */
 .close {
     color: #aaa;
