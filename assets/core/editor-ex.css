@@ -133,7 +133,6 @@ var {
 
 .dark .social-links ul a:before {
   color: #404040;
-  font-size: 22px;
 }
 
 .dark .social-links ul a:hover {
@@ -222,19 +221,17 @@ var {
   line-height: 26px;
 }
 
-/* New social links style */
+/* New social links style as bottom line */
 .social-links ul a {
-  min-height: 40px;
-  min-width: 40px;
-  line-height: 40px;
-  border-radius: 33%;
-}
-.social-links ul a:hover {
-  border-radius: 50%;
+  min-height: 30px;
+  min-width: 30px;
+  line-height: 30px;
 }
 
 .social-links {
-  padding-top: 40px;
+  position: absolute;
+  bottom: 0;
+  padding-top: 0;
 }
 
 .bottom-line {

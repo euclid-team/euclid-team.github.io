@@ -7,7 +7,7 @@ permalink: /
 </div>
 Welcome to the web site of Euclid, the Algorithms and Privacy Research Unit!
 
-The Research Unit belongs to the Programming and Data Processing Lab (a.k.a. <a href="http://www.intersys-lab.org/" target="_blank">Internetworked Systems Lab</a>) of the Democritus University of Thrace.
+The Research Unit belongs to the <a href="http://www.intersys-lab.org/" target="_blank">Internetworked Systems Lab</a> of the Democritus University of Thrace.
 
 ### Mission Statement
 

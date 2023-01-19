@@ -18,4 +18,4 @@ __Participation__
 Our team presented a benchmark for Federated Learning for 5G Base Station Traffic Forecasting, where various optimizations to existing methods were introduced. The official Github repository (incl. Presentation Slides) of our solution can be found [here](https://github.com/ITU-AI-ML-in-5G-Challenge/ITU-ML5G-PS-001-Euclid-Federated-Traffic-Prediction2022).
 
 __Watch the Machine Learning in 5G Challenge Grand Finale__
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Mqzibh93cf0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=Mqzibh93cf0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
