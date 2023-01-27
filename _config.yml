@@ -24,11 +24,9 @@ logo-mini: /assets/core/euclid-logo-mini.svg
 
 scholar:
   bibliography_template: bibtemplate 
-  style: apa
-  # group_by: topic
+  style: apa-no-doi-no-issue
   source: _bibliography
   sort_by: none
   order: descending
   bibliography_list_tag: ul
   repository: publications
-  
