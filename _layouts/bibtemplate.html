@@ -1,16 +1,19 @@
 ---
 ---
-{{reference}}{% if entry.comment %}, [{{entry.comment}}] {% endif %}
+{{reference}}
+{% if entry.doi %}
+<a href="http://dx.doi.org/{{entry.doi}}">{{entry.doi}}</a>
+{% endif %}
 
 <br>
-<button class="btn btnId btnPub--BibTex" id="b_{{key}}-bibtex" style="outline:none;" onclick="showDiv('{{key}}-bibtex')">BibTeX</button>
+<span><a class="button" id="b_{{key}}-bibtex" style='line-height:3;white-space:nowrap;' onclick="showDiv('{{key}}-bibtex')"><i class='fa-solid fa-book' style='margin-right:0.5em;'></i>BibTeX</a></span>
 
 <div class="dropDownBibtex" id="{{key}}-bibtex" style="display:none">
 <pre>{{entry.bibtex}}</pre>
 </div>
 
 {% if entry.abstract %}
-<button class="btn btnId btnPub--abstract" id="b_{{key}}-abstract" style="outline:none;" onclick="showDiv('{{key}}-abstract')">Abstract</button>
+<span><a class="button" id="b_{{key}}-abstract" style='line-height:3;white-space:nowrap;' onclick="showDiv('{{key}}-abstract')"><i class='fas fa-paperclip' style='margin-right:0.5em;'></i>Abstract</a></span>
 {% endif %}
 
 <div class="dropDownAbstract" id="{{key}}-abstract" style="display:none">
@@ -18,14 +21,17 @@
 </div>
 
 {% if links['pdf'] %}
-<a href="{{links['pdf']}}"><button class="btn btnId btnPub--download" style="outline:none; position:relative;white-space: normal;">PDF</button></a>
+<span><a class='button' style='line-height:3;white-space:nowrap;' href="{{links['pdf']}}"><i class="fas fa-file-pdf" style='margin-right:0.5em;'></i>Download PDF</a></span>
 {% endif %}
 
-{% if links['md'] %}
-<a href="{{key}}"><button class="btn btnId btnPub--download" style="outline:none; position:relative;white-space: normal;">Paper page</button></a>
-<!-- {% details_link key %}  -->
-<!-- The above is an alternative way to use the detail_link for only one page, but you must create the pages manually  -->
+{% if links['zip'] %}
+<span><a class='button' style='line-height:3;white-space:nowrap;' href="{{links['zip']}}"><i class='fa-solid fa-file-zipper' style='margin-right:0.5em;'></i>Download Dataset</a></span>
 {% endif %}
+
+{% if entry.github %}
+<span><a class='button' style='line-height:3;white-space:nowrap;' href="{{entry.github}}"><i class='fa-brands fa-github' style='margin-right:0.5em;'></i>GitHub</a></span>
+{% endif %}
+
 
 <script>
     function showDiv(toggle) {
